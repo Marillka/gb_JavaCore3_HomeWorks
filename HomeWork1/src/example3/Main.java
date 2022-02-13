@@ -25,7 +25,6 @@ public class Main {
         System.out.println(appleBox.compare(orangeBox));
 
         Box<Orange> secondOrangeBox = new Box<>();
-
         orangeBox.pour(secondOrangeBox);
         System.out.println(secondOrangeBox.getWeight());
 

@@ -27,7 +27,7 @@ public class Box<T extends Fruit> {
         } else return false;
     }
 
-    public void pour(Box anotherBox) {
+    public void pour(Box<T> anotherBox) {
         for (int i = 0; i < this.list.size(); i++) {
             anotherBox.add(this.list.get(i));
         }
